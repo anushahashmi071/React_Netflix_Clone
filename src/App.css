@@ -1,0 +1,33 @@
+h1 {
+    font-size: 3.5rem;
+    max-width: 600px;
+    margin-inline: auto;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-block: 20px;
+}
+
+h6 {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.header {
+    height: 60px;
+}
+
+.sec-footer a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: underline solid rgba(255, 255, 255, 0.7) 1px !important;
+}
+
+.footer-links a {
+    display: block;
+    width: 267px;
+}
+.form-select{
+    width: 100px;
+}

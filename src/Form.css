@@ -1,0 +1,37 @@
+.form-section {
+    display: flex;
+    min-height: 20px;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    width: 650px;
+    margin-inline: auto;
+    position: relative;
+}
+
+.form-input {
+    width: 400px;
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    color: #fff;
+}
+
+.form-input:focus {
+    outline: rgba(255, 255, 255, 0.7) solid 2px !important;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.form-label {
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    color: #fff;
+    transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+.form-input:focus ~ .form-label {
+    top: 25px;
+    font-size: 0.7rem;
+}
