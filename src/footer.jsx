@@ -2,32 +2,27 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 
 export default function Footer() {
-  const data = [
-    { a: "FAQ" },
-    { a: "Help Center" },
-    { a: "Account" },
-    { a: "Media Center" },
-    { a: "Investor Relation" },
-    { a: "Jobs" },
-    { a: "Way to Watch" },
-    { a: "Terms of Use" },
-    { a: "Privacy" },
-    { a: "Cookies Preferences" },
-    { a: "Corporator Information" },
-    { a: "Contact Us" },
-    { a: "Speed Test" },
-    { a: "Legal Notice" },
-    { a: "Only on Netflix" },
-  ];
   return (
     <Container className="sec-footer">
       <a href="">Question ? Contact Us</a>
-      <ul className="footer-links d-flex flex-wrap row-gap-3 p-0">
-        {data.map((e) => (
+      <ul className="footer-links">
           <li>
-            <a href="">{e.a}</a>
+            <a href="">FAQ</a>
+            <a href="">Help Center</a>
+            <a href="">Account</a>
+            <a href="">Media Center</a>
+            <a href="">Investor Relation</a>
+            <a href="">Jobs</a>
+            <a href="">Way to Watch</a>
+            <a href="">Terms of Use</a>
+            <a href="">Privacy</a>
+            <a href="">Cookies Preferences</a>
+            <a href="">Corporator Information</a>
+            <a href="">Contact Us</a>
+            <a href="">Speed Test</a>
+            <a href="">Legal Notice</a>
+            <a href="">Only on Netflix</a>
           </li>
-        ))}
       </ul>
 
       <Form.Select className="form-select" aria-label="Default select example">

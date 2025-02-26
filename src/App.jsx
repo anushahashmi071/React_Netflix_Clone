@@ -1,24 +1,34 @@
-import './App.css';
-import Header from "./header.jsx";
-import Banner from "./Banner.jsx"
-import Form from "./Form.jsx"
-import Footer from "./footer.jsx"
+import "./App.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Header from "./Header.jsx";
+import Banner from "./Banner.jsx";
+import Card1 from "./Card.jsx";
+import FAQ from "./FAQ.jsx";
+import Form from "./Form.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
- 
-
   return (
     <>
-    <Header/>
+      <Header />
+      <Banner />
+      <Container>
+        <Row>
+          <Col>
+            <Card1/>
+            
+            <FAQ />
 
-    <Banner/>
+            <Form />
 
-    <Form/>
-
-    <Footer/>
-      
+            <Footer />
+          </Col>
+        </Row>
+      </Container>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

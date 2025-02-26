@@ -1,0 +1,35 @@
+.accordion{
+    background-color: #000 !important;
+}
+.accordion-button,
+.accordion-body {
+    background-color: rgb(45, 45, 45) !important;
+    color: #fff;
+    font-size: 1.5rem !important;
+}
+
+.accordion-button:hover,
+.accordion-body:hover {
+    background-color: rgba(45, 45, 45, 0.9) !important;
+}
+
+.accordion-item {
+    background-color: rgb(45, 45, 45) !important;
+    border: none !important;
+    margin-bottom: 10px;
+}
+/* 
+.accordion-header{
+} */
+
+.accordion-button{
+    height: 80px !important;
+}
+
+.accordion-button:not(.collapsed){
+    color: #fff;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}

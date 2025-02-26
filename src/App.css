@@ -1,27 +1,23 @@
-h1 {
-    font-size: 3.5rem;
-    max-width: 600px;
-    margin-inline: auto;
-    font-weight: 900;
-}
-
-h3 {
-    font-size: 1.5rem;
-    padding-block: 20px;
-}
-
-h6 {
-    font-size: 1rem;
-    padding: 20px;
-}
-
 .header {
     height: 60px;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
 }
 
 .sec-footer a {
     color: rgba(255, 255, 255, 0.7) !important;
     text-decoration: underline solid rgba(255, 255, 255, 0.7) 1px !important;
+}
+
+.footer-links{
+    padding: 0;
+}
+
+.footer-links li{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-links a {
