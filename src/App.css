@@ -1,3 +1,8 @@
+h3 {
+    font-size: 1.5rem;
+    padding-block: 20px;
+}
+
 .header {
     height: 60px;
     z-index: 2;
@@ -5,25 +10,50 @@
     width: 100%;
 }
 
-.sec-footer a {
-    color: rgba(255, 255, 255, 0.7) !important;
-    text-decoration: underline solid rgba(255, 255, 255, 0.7) 1px !important;
+.sec-footer {
+    padding-top: 40px;
 }
 
-.footer-links{
+.sec-footer a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline solid rgba(255, 255, 255, 0.7) 1px;
+    font-size: 0.9rem;
+}
+
+.footer-links {
     padding: 0;
 }
 
-.footer-links li{
+.footer-links li {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 15px;
+    padding-top: 20px;
 }
 
 .footer-links a {
     display: block;
     width: 267px;
 }
-.form-select{
-    width: 100px;
+
+.form-select {
+    width: 130px;
+    color: #fff;
+    text-align: end;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-bottom {
+    position: relative;
+    display: flex;
+}
+
+.footer-bottom img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    z-index: 1;
 }

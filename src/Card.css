@@ -1,29 +1,33 @@
 .card {
     background: rgb(25, 34, 71);
     background: linear-gradient(149deg, rgba(25, 34, 71, 1) 3%, rgba(33, 14, 23, 1) 96%);
+    border-radius: 20px;
 }
 
-.icon-box{
-    background: rgb(176,99,177);
-background: linear-gradient(149deg, rgba(176,99,177,1) 3%, rgba(177,32,132,1) 96%);
+.card-text {
+    min-height: 100px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-box {
+    background: rgb(176, 99, 177);
+    background: linear-gradient(149deg, rgba(176, 99, 177, 1) 3%, rgba(177, 32, 132, 1) 96%);
     text-align: end;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    /* padding: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.card-icon{
+.card-icon {
     font-size: 2.5rem;
     color: purple;
 }
 
-.icon{
-    height: 100px;
+.icon {
+    height: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;

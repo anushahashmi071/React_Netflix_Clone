@@ -18,7 +18,6 @@ function Banner() {
             Unlimited movies, TV shows, and more
           </Card.Title>
           <Card.Text className="card-subtitle">
-            {" "}
             Starts ar Rs250. Cancel anytime.
           </Card.Text>
           <Card.Text className="card-description">
