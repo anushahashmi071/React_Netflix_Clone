@@ -35,3 +35,12 @@
     top: 25px;
     font-size: 0.7rem;
 }
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.arrow-icon{
+    color: #fff;
+}
