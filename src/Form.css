@@ -31,16 +31,17 @@
     transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
-.form-input:focus ~ .form-label {
+.form-input:focus~.form-label {
     top: 25px;
     font-size: 0.7rem;
 }
 
-.btn{
+.btn {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.arrow-icon{
+
+.arrow-icon {
     color: #fff;
 }
