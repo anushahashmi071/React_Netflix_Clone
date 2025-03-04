@@ -1,6 +1,7 @@
-.accordion{
+.accordion {
     background-color: #000 !important;
 }
+
 .accordion-button,
 .accordion-body {
     background-color: rgb(45, 45, 45) !important;
@@ -18,18 +19,19 @@
     border: none !important;
     margin-bottom: 10px;
 }
+
 /* 
 .accordion-header{
 } */
 
-.accordion-button{
+.accordion-button {
     height: 80px !important;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
     color: #fff;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: none;
 }

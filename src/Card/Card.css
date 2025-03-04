@@ -5,8 +5,8 @@
 }
 
 .card-text {
-    min-height: 100px;
     color: rgba(255, 255, 255, 0.6);
+    padding-block: 8px !important;
 }
 
 .icon-box {

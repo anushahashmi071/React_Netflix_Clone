@@ -1,9 +1,11 @@
 import Form from "react-bootstrap/Form";
-import translateImg from "./assets/translate.png";
+import Container from "react-bootstrap/Container";
+import translateImg from "../assets/translate.png";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="sec-footer">
+    <Container className="sec-footer">
       <a href="">Question ? Contact Us</a>
       <ul className="footer-links">
         <li>
@@ -34,7 +36,7 @@ export default function Footer() {
           <option value="1">English</option>
         </Form.Select>
       </div>
-      <a href="">Netflix Pakitsan</a>
-    </div>
+      <a href="" className="netflixPk">Netflix Pakitsan</a>
+    </Container>
   );
 }

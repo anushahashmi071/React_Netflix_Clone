@@ -1,28 +1,27 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Header from "./Header.jsx";
-import Banner from "./Banner.jsx";
-import Card1 from "./Card.jsx";
-import FAQ from "./FAQ.jsx";
-import Form from "./Form.jsx";
-import Footer from "./Footer.jsx";
+import Header from "./Header/Header.jsx";
+import Banner from "./Banner/Banner.jsx";
+import Carousel from "./Carousel/Carousel.jsx";
+import Card1 from "./Card/Card.jsx";
+import FAQ from "./FAQ/FAQ.jsx";
+import Form from "./Form/Form.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 export default function Home() {
   return (
     <>
       <Header />
+
       <Banner />
-      <Container>
-        <Row>
-          <Col>
-            <Card1 />
-            <FAQ />
-            <Form />
-            <Footer />
-          </Col>
-        </Row>
-      </Container>
+
+      <Carousel />
+
+      <Card1 />
+
+      <FAQ />
+
+      <Form />
+
+      <Footer />
     </>
   );
 }

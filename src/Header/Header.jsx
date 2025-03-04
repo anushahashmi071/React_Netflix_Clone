@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import "./Header.css";
 
 function Header() {
   return (
@@ -15,7 +16,9 @@ function Header() {
               alt="Netflix logo"
             />
           </Navbar.Brand>
-          <Button variant="danger" type="submit">Sign In</Button>
+          <Button variant="danger" type="submit">
+            Sign In
+          </Button>
         </Container>
       </Navbar>
     </>
