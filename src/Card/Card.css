@@ -23,7 +23,7 @@
 
 .card-icon {
     font-size: 2.5rem;
-    color: purple;
+    color: rgba(128, 0, 128, 0.692);
 }
 
 .icon {
@@ -31,4 +31,25 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+/* Media Query */
+@media only screen and (max-width: 992px) {
+    .card{
+        width: 28rem !important;
+    }
+    .card-content{
+        width: 25rem;
+    }
+    .icon{
+        height: 30%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100% !important;
+    }
+    .card-content{
+        width: 100% !important;
+    }
 }

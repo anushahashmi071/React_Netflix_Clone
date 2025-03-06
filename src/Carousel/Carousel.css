@@ -1,0 +1,51 @@
+.carouselImage img {
+    border-radius: 10px;
+}
+
+.carouselImage {
+    position: relative;
+}
+
+.carouselImage h2 {
+    position: absolute;
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: #000;
+    bottom: 0px;
+    font-size: 5.5rem;
+    left: -18px;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    .carouselImage{
+        width: 150px !important;
+    }
+    .carouselImage img {
+        width: 120px !important;
+    }
+    .carouselImage h2{
+        font-size: 3.2rem;
+        left: -10px;
+        bottom: -10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carouselImage{
+        width: 90px !important;
+    }
+    .carouselImage img {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .carouselImage{
+        width: 90px !important;
+    }
+    .carouselImage img {
+        width: 90px !important;
+    }
+}

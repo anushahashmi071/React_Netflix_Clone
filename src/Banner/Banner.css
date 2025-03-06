@@ -29,7 +29,7 @@
 }
 
 .card-title {
-    font-size: 3.5rem !important;
+    font-size: 3.5rem;
     max-width: 600px;
     margin-inline: auto;
     font-weight: 900;
@@ -43,4 +43,31 @@
 .card-description {
     font-size: 1rem;
     padding: 20px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1200px) {
+    .card-title {
+        font-size: 2.5rem;
+        max-width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card-title {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-subtitle{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card-title {
+        max-width: 100vw;
+        margin-inline: auto;
+    }
 }

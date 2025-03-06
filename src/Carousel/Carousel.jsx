@@ -3,8 +3,29 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Carousel.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Carousel() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 380,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+    ],
+  };
+
   const img = [
     {
       title: 1,
@@ -57,12 +78,14 @@ function Carousel() {
       <Row>
         <Col>
           <h3>Trending Now</h3>
-          {img.map((ele, i) => (
-            <div key={i}>
-            <img src={ele.imgUrl} />
-            <span>{ele.title}</span>
-            </div>
-          ))}
+          <Slider {...settings} className="carousel">
+            {img.map((ele, i) => (
+              <div key={i} className="carouselImage">
+                <img src={ele.imgUrl} />
+                <h2>{ele.title}</h2>
+              </div>
+            ))}
+          </Slider>
         </Col>
       </Row>
     </Container>

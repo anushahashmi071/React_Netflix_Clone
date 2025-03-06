@@ -14,9 +14,9 @@ export default function Card1() {
       <Row>
         <Col>
           <h3>More Reasons to Join</h3>
-          <div className="d-flex gap-3">
-            <Card style={{ width: "17rem" }}>
-              <Card.Body className="card">
+          <div className="d-flex gap-3 flex-wrap">
+            <Card style={{ width: "16.5rem" }}>
+              <Card.Body className="card-content">
                 <Card.Subtitle className="mb-2 text-light">
                   Enjoy on your TV
                 </Card.Subtitle>
@@ -31,8 +31,8 @@ export default function Card1() {
                 </div>
               </Card.Body>
             </Card>
-            <Card style={{ width: "17rem" }}>
-              <Card.Body className="card">
+            <Card style={{ width: "16.5rem" }}>
+              <Card.Body className="card-content">
                 <Card.Subtitle className="mb-2 text-light">
                   Download your shows to watch offline
                 </Card.Subtitle>
@@ -46,8 +46,8 @@ export default function Card1() {
                 </div>
               </Card.Body>
             </Card>
-            <Card style={{ width: "17rem" }}>
-              <Card.Body className="card">
+            <Card style={{ width: "16.5rem" }}>
+              <Card.Body className="card-content">
                 <Card.Subtitle className="mb-2 text-light">
                   Watch everywhere
                 </Card.Subtitle>
@@ -62,8 +62,8 @@ export default function Card1() {
                 </div>
               </Card.Body>
             </Card>
-            <Card style={{ width: "17rem" }}>
-              <Card.Body className="card">
+            <Card style={{ width: "16.5rem" }}>
+              <Card.Body className="card-content">
                 <Card.Subtitle className="mb-2 text-light">
                   Create profiles for kids
                 </Card.Subtitle>

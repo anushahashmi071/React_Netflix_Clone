@@ -4,13 +4,6 @@ body {
     color: #fff;
 }
 
-h1 {
-    font-size: 3.5rem;
-    max-width: 600px;
-    margin-inline: auto;
-    font-weight: 900;
-}
-
 h3 {
     font-size: 1.5rem;
     padding-block: 20px;

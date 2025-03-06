@@ -20,10 +20,6 @@
     margin-bottom: 10px;
 }
 
-/* 
-.accordion-header{
-} */
-
 .accordion-button {
     height: 80px !important;
 }
@@ -34,4 +30,19 @@
 
 .accordion-button:focus {
     box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url(../assets/plus.png) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(45deg);
+}
+
+/* Media Query */
+@media only screen and (max-width: 576px){
+    .accordion-button{
+        font-size: 1.2rem !important;
+    }
 }
