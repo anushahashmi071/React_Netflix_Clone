@@ -1,55 +1,87 @@
 .card {
-    background: rgb(25, 34, 71);
-    background: linear-gradient(149deg, rgba(25, 34, 71, 1) 3%, rgba(33, 14, 23, 1) 96%);
-    border-radius: 20px;
+  background: rgb(25, 34, 71);
+  background: linear-gradient(
+    149deg,
+    rgba(25, 34, 71, 1) 3%,
+    rgba(33, 14, 23, 1) 96%
+  );
+  border-radius: 20px;
 }
 
 .card-text {
-    color: rgba(255, 255, 255, 0.6);
-    padding-block: 8px !important;
+  color: rgba(255, 255, 255, 0.6);
+  padding-block: 8px !important;
+  height: 100px;
 }
 
 .icon-box {
-    background: rgb(176, 99, 177);
-    background: linear-gradient(149deg, rgba(176, 99, 177, 1) 3%, rgba(177, 32, 132, 1) 96%);
-    text-align: end;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: rgb(176, 99, 177);
+  background: linear-gradient(
+    149deg,
+    rgba(176, 99, 177, 1) 3%,
+    rgba(177, 32, 132, 1) 96%
+  );
+  text-align: end;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-icon {
-    font-size: 2.5rem;
-    color: rgba(128, 0, 128, 0.692);
+  font-size: 2.5rem;
+  color: rgba(128, 0, 128, 0.692);
+}
+
+.card-subtitle {
+  height: 95px;
+}
+
+.card-body {
+  padding: 10px 20px;
 }
 
 .icon {
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+  height: 75px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 /* Media Query */
 @media only screen and (max-width: 992px) {
-    .card{
-        width: 28rem !important;
-    }
-    .card-content{
-        width: 25rem;
-    }
-    .icon{
-        height: 30%;
-    }
+  .card {
+    width: 28rem !important;
+  }
+  .card-content {
+    width: 25rem;
+  }
+  .icon {
+    height: 30%;
+  }
+  .card-subtitle, .card-text{
+    height: 50px;
+  }
 }
 @media only screen and (max-width: 768px) {
-    .card {
-        width: 100% !important;
+  .card {
+    width: 100% !important;
+  }
+  .card-content {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 320px){
+    .icon-box{
+        height: 40px;
+        width: 40px;
     }
-    .card-content{
-        width: 100% !important;
+    .icon{
+        height: 30px;
+    }
+    .card-icon{
+        font-size: 1.5rem;
     }
 }
