@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import logo from "../../public/logo.svg"
 import "./Header.css";
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
         <Container>
           <Navbar.Brand>
             <img
-              src="/public/logo.svg"
+              src={logo}
               width="100"
               height="100"
               alt="Netflix logo"
